@@ -30,6 +30,15 @@ html {
 
 body {
   box-sizing: border-box; }
+  @media (max-width: 75em) {
+    body {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    body {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    body {
+      font-size: 75%; } }
 
 body {
   font-family: "Lato", sans-serif;
